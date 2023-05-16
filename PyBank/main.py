@@ -2,7 +2,7 @@
 import os
 import csv
 #find out path to data file
-budgetfilelocation = os.path.join("..Resources/budget_data.csv")
+budgetfilelocation = os.path.join("../Resources/budget_data.csv")
 
 #Open and read CSV 
 with open(budgetfilelocation) as csvfile:
