@@ -2,7 +2,7 @@
 import os
 import csv
 #establish path to data file
-polldata = os.path.join("C:/Users/smtro/git/gitrepos/python-challenge/PyPoll/Resources/election_data.csv")
+polldata = os.path.join("Resources/election_data.csv")
 #"C:\Users\smtro\git\gitrepos\python-challenge\PyPoll\Resources\election_data.csv"
 #open and read csv file
 with open(polldata) as csvfile:
